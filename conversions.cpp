@@ -10,7 +10,7 @@ int binaryToDecimal(int n){
     while(n > 0){
         int y = n % 10;
         ans += y * x;
-        cout << "ans : " << ans  << " x = "<< x << endl;
+        //cout << "ans : " << ans  << " x = "<< x << endl;
         x *= 2;
         n /= 10;
     }
@@ -72,7 +72,7 @@ int decimalToBinary(int n){ //needs validation
         n -= lastDigit * x;
         x /= 2;
 
-        ans = ans*10 + lastDigit
+        ans = ans*10 + lastDigit;
 
     }
 
