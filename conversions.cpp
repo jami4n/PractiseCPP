@@ -49,7 +49,7 @@ int hexadecimalToDecimal(string n){
         cout<<ans;
 
         x*= 16;
-    } 
+    }  
 
 
     return ans;
